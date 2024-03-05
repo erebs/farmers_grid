@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+* {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+footer i{
+	font-size: 24px;
+	margin: 0px 7px;
+	color: #000;
+}
+footer i:hover{
+	text-decoration: none !important;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+p, button, a, input, span, li {
+	font-size: 16px;
+}
+.container-main{
+	width: 90%;
+	margin: auto;
+}
+.primary-bg{
+	background: #A60000;
+}
+.primary-color{
+	color: #A60000;
+}
+/* navbar  */
+header {
+	background: #A60000;
+	padding: 20px 0px;
+}
+.logo-main{
+	width: 100px;
+}
+.nav-linkss{
+	color: #fff;
+}
+.nav-linkss:hover{
+	text-decoration: none !important;
+	color: #fff !important;
+}
+.nav-items ul{
+	display: flex;
+}
+.nav-items ul li{
+	padding: 0px 20px;
+}
+.navbar-main-dv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-profl-login i{
+	padding: 0px 20px;
+	font-size: 20px;
+}
+.nav-profl-login a{
+	text-decoration: none !important;
+}
+.serach-box{
+	width: 400px;
+	margin: auto;
+}
+/* footer  */
+footer{
+	background: #D9D9D9;
+	padding: 20px 0px;
+}
+.logo-footer{
+	width: 100px;
+}
+.footer-main-head{
+	padding-bottom: 20px;
+}
+footer ul li{
+	padding-bottom: 5px;
+	color: #000 !important;
+}
+footer ul li a{
+	color: #000 !important;
+}
+footer ul li a:hover{
+	text-decoration: none !important;
+}
+.all-right{
+	color: #747171;
+}
+/* slider code  */
+/* Set the height of the carousel */
+
+
+/* Style the background images */
+.carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Show the active slide */
+.carousel-item.active {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+/* sidebar code */
+.sidebar{
+	width: 90%;
+	min-width: 270px;
+	max-width: 320px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	overflow:auto !important;
+	right: -320px;
+	z-index: 20;
+	transition: 0.2s ease;
+	background: #ffffff;
+	color: #000;
+}
+.sidebar .closse i{
+	font-size: 28px;
+	color: #000000;
+}
+.open-cart{
+	right: 0px !important;
+}
+.open-cartt{
+	display:none;
+}
+.open-cart:before{
+	content: '';
+	position: fixed;
+	top: 0px;
+	height: 70vh;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	pointer-events: none;
+	z-index: -1;
+}
+.navbar-sidebar {
+	padding: 25px;
+	margin-top: 45px;
+}
+.navbar-sidebar ul li{
+	list-style: none;
+	background: #A60000;
+	padding: 8px 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+.navbar-sidebar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 400;
+}
+.navbar-sidebar ul{
+    padding: 0;
+}
+.sidebar .closse{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: #000000;
+}
+/* .sidebar .active {
+	color: #F36;
+} */
+.modal-home .ri-close-circle-line {
+	text-align: right;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+    .search-container {
+      position: relative;
+      display: inline-block;
+    }
+
+
+    #subOptions {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1;
+			width: 100%;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ccc;
+      /* max-height: 200px;
+      overflow-y: auto; */
+			padding: 10px 15px;
+			border-radius: 0px 0px 10px 10px;
+    }
+
+    .sub-option {
+      padding: 10px 10px;
+      cursor: pointer;
+			font-weight: 500;
+			font-size: 15px;
+    }
+		.p-img-search{
+			width: 50px;
+      height: 50px;
+		}
+		.img-with-name a{
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+			color: #000;
+			text-decoration: none;
+		}
+        .img-with-name a:hover{
+          color: #000 !important;
+          text-decoration: none !important;
+
+        }
+        .img-with-name:hover{
+          background-color: #d4d4d4;
+        }
+

@@ -1,0 +1,1083 @@
+.delete-icon i {
+    color: #FF0000;
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+/* ================== */
+/* .carousel-item{
+  position: relative;
+} */
+.banner-content{
+	/* position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column; */
+	padding: 190px 0px;
+}
+.explore-btn-banner{
+	display: flex !important;
+	width: max-content !important;
+	border-radius: 0px !important;
+	padding: 7px 30px !important;
+}
+.banner-main-text{
+	padding-bottom: 20px;
+}
+.shop-text{
+	font-weight: 400;
+}
+.shop-dv-heading{
+	padding: 30px 0px 20px 0px;
+}
+.disese-img{
+	border-radius: 10px;
+}
+.disese-box{
+	position: relative;
+}
+.disease-name{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	left: 0;
+	right: 0;
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+}
+.view-all-btn{
+	display: flex !important;
+	width: max-content !important;
+	border-radius: 0px !important;
+	padding: 7px 30px !important;
+	margin: auto;
+}
+.disese-box{
+	margin-bottom: 30px;
+}
+.space-dv{
+	width: 70%;
+	margin: auto;
+}
+.view-all-btn-products{
+	display: flex !important;
+	width: max-content !important;
+	border-radius: 0px !important;
+	padding: 7px 30px !important;
+}
+.trending-products-dv{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.product-box{
+	padding: 20px;
+	border: 0.5px solid #AEAEAE;
+	background: #F2F2F2;
+	margin-bottom: 30px;
+}
+.product-image {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin: auto;
+}
+.prdct-img-box{
+	background: #fff;
+	padding: 50px 0px;
+}
+.add-to-cart{
+	display: flex !important;
+	width: max-content !important;
+	border-radius: 0px !important;
+	padding: 7px 10px !important;
+	display: table;
+	margin-left: auto;
+}
+.product-name{
+	font-weight: 400;
+	font-size: 17px;
+	padding-bottom: 7px;
+}
+.product-price{
+	font-size: 17px;
+	font-weight: 400;
+}
+.price-detail-dv{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+.trending-text{
+	font-weight: 400;
+}
+.chat-bg{
+	padding: 90px 0px;
+}
+.medicine-text{
+	padding-bottom: 20px;
+}
+.chat-main{
+	padding: 30px 0px;
+}
+/* disease single page disgn  */
+.desease-single-main-div{
+	padding: 50px 0px	;
+}
+.sub-txt-desease{
+	text-align: justify;
+}
+.desease-name{
+	padding-bottom: 10px;
+}
+.option-select-product select{
+	background: #D9D9D9 !important;
+	border: none !important;
+	outline: none !important;
+	padding: 9px 15px !important;
+}
+.img-box-desease{
+	margin-bottom: 20px;
+}
+.signin-main-dv{
+	padding: 150px 0px;
+	width: 450px;
+	margin: auto;
+}
+.signin-text{
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+.signin-main-dv form input.form-control{
+	border: 1px solid #000 !important;
+	border-radius: 0px !important;
+	padding: 10px 20px !important;
+}
+.account-text{
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+.signin-btn-main{
+	padding: 8px 100px !important;
+	border-radius: 0px !important;
+	display: table !important;
+	margin-left: auto;
+	margin-right: auto ;
+}
+.forget-text{
+	padding: 20px 0px;
+}
+.signin-main-dv .form-check{
+	padding-bottom: 15px;
+}
+/* cart page style  */
+.cart-main-dv{
+	padding: 20px;
+	border: 0.5px solid #000;
+	width: 70%;
+	margin: auto;
+}
+.cart-main-head-div{
+	padding: 50px 0px 20px 0px;
+}
+.cart-img-box{
+	background: #D9D9D9;
+	padding: 20px;
+	width: max-content !important;
+}
+.cart-product-image{
+	width: 150px;
+}
+.cart-sub-text{
+	font-size: 17px;
+}
+.cart-product-name{
+	font-weight: 400;
+	padding-bottom: 8px;
+}
+.cart-box{
+	display: flex;
+}
+.cart-content-box{
+	padding-left: 20px;
+}
+.cart-price-dv{
+	display: flex;
+	padding: 10px 0px 20px 0px;
+}
+.cart-price{
+	font-weight: 400;
+	font-size: 21px;
+}
+.discount-price-cart{
+	font-weight: 400;
+	font-size: 21px;
+	padding-left: 20px;
+	text-decoration: line-through chocolate;
+}
+.cart-main-dv hr{
+	border: 0.5px solid #707070;
+	margin: 30px 0px;
+}
+.qnt-unt{
+    display: flex;
+}
+.option-select-product{
+    margin-left: 20px;
+}
+.qntity{
+	padding: 5px 10px;
+	border: 1px solid #000;
+	display: flex;
+	width: max-content !important;
+}
+.qntity input{
+	width: 35px;
+	border: none;
+}
+.symbol-q{
+	padding: 0px 5px;
+	cursor: pointer;
+}
+.delete-icon i{
+	color: #FF0000;
+	font-size: 22px;
+	cursor: pointer;
+}
+.quantity-delet-icon{
+	display: flex;
+	justify-content: space-between;
+}
+.sub-total-dv .cart-sub-total-text{
+	text-align: right;
+	font-weight: 400;
+	font-size: 17px;
+}
+.sub-total-dv .cart-sub-total-text span{
+	font-size: unset;
+}
+.proceed-btn{
+	border-radius: 0px !important;
+	padding: 8px 50px !important;
+	display: table !important;
+	margin: auto;
+}
+/* profile tab page  */
+.tab-main-dv{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.tab-name{
+	font-weight: 400;
+	width: max-content;
+	padding: 10px 60px;
+	font-size: 18px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+.tab-name.active {
+	background-color: #A60000;
+	color: white; /* Add this to change the text color on the active tab */
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane.active {
+	display: block;
+}
+.profile-space-main{
+	padding: 50px 0px;
+}
+.tab-content{
+	width: 100%;
+}
+.profile-dv form input{
+	border: 1px solid #000 !important;
+	border-radius: 0px !important;
+	padding: 8px 20px !important;
+}
+.logout-btn{
+	display: flex;
+	color: #000;
+	margin: auto;
+	text-align: center;
+}
+.logout-btn:hover{
+	color: #000;
+	text-decoration: none;
+}
+.logout-btn i{
+	padding-right: 10px;
+}
+.log-out{
+	display: table;
+	margin: auto;
+	padding: 20px 0px;
+}
+.profile-dv{
+	width: 700px !important;
+	margin: auto;
+}
+.address-box{
+	justify-content: space-between;
+	border: 1px solid #000;
+}
+.address-boxs{
+    display: flex;
+    justify-content: space-between;
+	border: 1px solid #000;
+    padding: 20px;
+}
+.user-name-address{
+	font-weight: 400;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+.edit-btn{
+	background: #A60000;
+	padding: 5px 40px;
+}
+.btns-addrss{
+	padding: 5px 20px;
+}
+.dlt-btn:hover{
+	text-decoration: none;
+}
+.dlt-btn{
+	color: #000 !important;
+	padding: 5px 30px;
+	border: 1px solid #A60000;
+}
+.addrs-btns{
+
+}
+.two-btn{
+	margin-top: 10px;
+}
+.add-adress-btn{
+	color: #A60000;
+	padding: 7px 40px;
+	border: 1px solid #A60000;
+	display: table;
+	margin: auto;
+}
+.choose-addrss-dv{
+	padding: 50px 0px 30px 0px;
+}
+.choose-text{
+	font-weight: 400;
+}
+.product-chekout{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.checkout-page .address-box{
+	width: 500px;
+	margin: auto;
+}
+.checkout-products-dv{
+	padding: 20px;
+	width: 800px;
+	margin: auto;
+	border: 1px solid #000000;
+}
+.product-name-txt{
+	font-size: 16px;
+	font-weight: 400;
+}
+.price-txt{
+	font-size: 16px;
+	font-weight: 400;
+}
+.product-name-price-dv{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.add-adress-btn:hover{
+	color: #A60000;
+	text-decoration: none !important;
+}
+.checkout-product-image{
+	width: 100px;
+}
+.product-dv{
+	background: #D9D9D9;
+	padding: 20px 30px !important;
+	width: max-content;
+}
+.check-product-name{
+	font-weight: 400;
+	font-size: 18px;
+}
+.main-dv-chekout{
+	display: flex;
+	align-items: center;
+}
+.product-name-dv{
+	padding-left: 15px;
+}
+.check-out-dscnt-price{
+	font-weight: 400;
+	padding-bottom: 7px;
+	color: #707070;
+	font-size: 15px;
+	text-decoration: line-through #A60000;
+}
+.check-out-orgnl-price{
+	font-weight: 400;
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+.total-main-dv{
+	display: flex;
+	justify-content: space-between;
+}
+.txt-total{
+	font-weight: 400;
+	font-size: 16px;
+}
+.total-main-dv{
+	padding: 20px 0px 0px 0px;
+}
+.grand-total{
+	font-size: 18px;
+	font-weight: 400;
+}
+.place-rdr-btn{
+	padding: 7px 40px !important;
+	border-radius: 0px !important;
+	margin: auto;
+	display: table !important;
+}
+.about-txt{
+	font-weight: 400;
+}
+/* about page  */
+.about-head-dv{
+	padding: 50px 0px 20px 0px;
+}
+.about-txt-sub{
+	text-align: justify;
+	padding: 30px 0px;
+}
+.signin-main-dv textarea{
+	border-radius: 0px !important;
+	border: 1px solid #000 !important;
+}
+.rel-txt{
+	font-weight: 400;
+	padding: 20px 0px;
+}
+.product-single-page{
+	padding: 70px 0px;
+}
+.prodcut-single-image{
+	width: 250px;
+	height: 400px;
+	margin: auto;
+	display: table;
+	padding: 20px 0px;
+}
+.product-main-image-dv{
+	background: #D9D9D9;
+	width: 100%;
+	height: 100%;
+}
+.product-main-name{
+	padding-bottom: 15px;
+}
+.small-image{
+	width: 100%;
+	margin: 25px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.product-thumbnail{
+	width: 24%;
+	background: #D9D9D9;
+}
+.single-orgnl-price{
+	font-weight: 400;
+}
+.single-dcnt-price{
+	font-weight: 400;
+	padding-left: 15px;
+	color: #707070;
+	text-decoration: line-through #A60000;
+}
+.single-page-price{
+	display: flex;
+	padding: 20px 0px;
+}
+.buy-now-btn{
+	border-radius: 0px !important;
+	padding: 8px 30px !important;
+}
+.btns-p-single{
+	padding: 20px 0px;
+}
+.cart-btn{
+	color: #A60000;
+	border-radius: 0px !important;
+	padding: 8px 30px !important;
+	margin-right: 15px;
+	border: 1px solid #A60000 !important;
+}
+.cart-btn:hover{
+	color: #A60000;
+}
+.qstn-dropdown{
+	cursor: pointer !important;
+	font-weight: 400;
+	font-size: 17px;
+}
+.dropdown-dv .card-header{
+	background: #D9D9D9;
+}
+.dropdown-dv .card-body{
+	background: #D9D9D9;
+}
+.dropdown-dv .card-header i{
+	position: absolute;
+	right: 15px;
+	font-size: 19px;
+}
+.anser-drpdown{
+	font-size: 15px;
+}
+.reviews-main-dv{
+	padding: 40px 0px 10px 0px;
+}
+.revoews-txt{
+	font-weight: 400;
+	padding-bottom: 18px;
+}
+.revier-name{
+	font-weight: 400;
+	font-size: 18px;
+}
+.revier{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 8px;
+}
+.revier i{
+	color: #D9D9D9;
+	font-size: 17px;
+	margin: 0px 3px;
+}
+.revier .gold{
+	color: #FFC700;
+}
+.txt-reviews{
+	padding: 0px 0px 15px 0px;
+}
+.form-review{
+	padding: 30px;
+	box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.form-review .form-control{
+	border-left: none !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	outline: none !important;
+	border-bottom: 1px solid  #000 !important;
+}
+.stars-rating i{
+	color: #D9D9D9;
+	font-size: 45px;
+	margin: 0px 10px;
+}
+.stars-rating{
+	width: max-content;
+	display: table;
+	margin: auto;
+	padding-top: 20px;
+}
+.add-review-btn{
+	color: #A60000;
+	font-weight: 500;
+	border-radius: 0px !important;
+	padding: 9px 40px !important;
+	display: table !important;
+	margin: auto;
+	border: 1px solid #E51F43 !important;
+}
+.add-review-btn:hover{
+	color: #A60000;
+}
+footer i{
+	font-size: 24px;
+	margin: 0px 7px;
+	color: #000;
+}
+footer i:hover{
+	text-decoration: none !important;
+}
+/* chat  */
+.chat-icon i{
+	color: #fff;
+	font-size: 30px;
+	padding: 15px;
+	background: #A60000;
+	border-radius: 50%;
+	z-index: 99;
+}
+.chat-icon{
+	position: fixed;
+	bottom: 30px !important;
+	right: 20px;
+	cursor: pointer;
+}
+.chat-box{
+	width: 350px;
+	height: 500px;
+	position: fixed;
+	right: 20px;
+	z-index: 99;
+	bottom: 90px !important;
+	background: #fff;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.chat-heading{
+	background: #A60000;
+	padding: 10px 20px;
+	display: flex;
+	position: fixed;
+	width: 350px;
+	z-index: 10;
+}
+.profile-chat{
+	width: 35px;
+	border-radius: 50%;
+}
+#myElement {
+	display: none;
+}
+.chat-profl-name{
+	margin-left: 15px;
+}
+.chat-user-name{
+	font-weight: 400;
+}
+.status-txt{
+	font-size: 12px;
+}
+.chat-content{
+	padding: 50px 20px 10px 20px;
+	position: relative !important;
+}
+.left-chat, .right-chat{
+	font-weight: 400;
+	font-size: 16px;
+	background: #D9D9D9;
+	width: max-content;
+}
+.left-chat{
+	padding: 9px 15px 9px 20px;
+	border-radius: 0px 20px 20px 0px;
+}
+.right-chat{
+	padding: 9px 25px 9px 15px;
+	border-radius: 20px 0px 0px 20px;
+	display: table;
+	margin-left: auto;
+	margin-top: 15px;
+	width: 300px;
+}
+.chat-add .form-control{
+	outline: none !important;
+	box-shadow: none !important;
+	background: #D9D9D9 !important;
+	border: none !important;
+	border-radius: 0px !important;
+	width: 95% !important;
+	font-size: 15px;
+}
+.chat-add .form-control::placeholder{
+	font-size: 13px !important;
+}
+.chat-add-box i{
+	padding: 7px 13px;
+	color: #ffff;
+	background: #A60000;
+	border-radius: 50%;
+	display: flex;
+}
+.chat-add-box{
+	display: flex;
+	width: 100%;
+	bottom: 10px;
+	position: fixed;
+	bottom: 100px;
+}
+.chat-add-box form{
+	width: 260px;
+}
+.view-product-name:hover{
+	text-decoration: none !important;
+	color: #A60000;
+}
+.product-chekouts {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.order-box-fl{
+	background: #A60000;
+	padding: 9px 20px;
+    color: #fff;
+}
+.mn{
+	display: flex;
+	padding: 20px;
+}
+.id-order{
+	font-size: 14px;
+	font-weight: 400;
+}
+.checkout-page .address-boxs {
+    width: 500px;
+    margin: auto;
+}
+.mobl-width{
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+
+.select-language{
+	padding: 5px 5px;
+	background: #A60000;
+	border: 1px solid #fff;
+	color: #fff;
+	display: table;
+	margin-left: auto;
+	margin-top: -35px;
+}
+
+/* responsive style  */
+@media (min-width:2000px) {
+	.container-main{
+		width: 55% !important;
+		margin: auto;
+	}
+	.space-dv {
+    width: 95%;
+    margin: auto;
+	}
+}
+@media (max-width:1600px) {
+	.cart-main-dv {
+    width: 90%;
+	}
+}
+@media (max-width:1400px) {
+	.space-dv {
+    width: 85%;
+	}
+}
+@media (max-width:1200px) {
+	.space-dv {
+    width: 100%;
+	}
+	.prdct-img-box {
+    padding: 35px 0px;
+	}
+	.price-dv{
+		padding-right: 8px;
+	}
+}
+@media (max-width:991px) {
+	.navbar-main-dv .nav-items{
+		display: none;
+	}
+    .mobl-width{
+        display: block;
+        padding: 8px 15px;
+        background: #A60000;
+        border: 1px solid #fff;
+        color: #fff;
+        display: table;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .select-language{
+		display: none;
+	}
+
+	.disease-name {
+    font-size: 20px;
+	}
+	.banner-main-text{
+		font-size: 24px;
+	}
+	.nav-profl-login{
+		display: flex;
+	}
+	.cart-main-dv {
+    width: 100%;
+	}
+	.checkout-products-dv {
+    width: 100%;
+	}
+	.product-details-dv-main{
+		padding-top: 20px;
+	}
+}
+@media (max-width:600px) {
+	.banner-main-text {
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.explore-btn-banner {
+    padding: 4px 18px !important;
+	}
+	.shop-text {
+    font-size: 20px;
+	}
+	.shop-dv-heading {
+    padding: 20px 0px 20px 0px;
+	}
+	.disease-name {
+    font-size: 17px;
+	}
+	.trending-products-dv {
+    padding: 24px 0px;
+	}
+	.serach-box .form-control {
+		padding: 2px 10px !important;
+	}
+	.serach-box .bg-white{
+		padding: 1px 10px !important;
+	}
+	.navbar-main-dv {
+    padding-bottom: 12px;
+	}
+	.serach-box {
+    width: 100%;
+	}
+	.medicine-text {
+    font-size: 30px;
+	}
+	.product-box {
+    padding: 12px;
+	}
+	.price-detail-dv {
+    display: block;
+	}
+	.add-to-cart {
+		margin-right: auto;
+		padding: 4px 10px !important;
+	}
+	.price-dv {
+    padding-bottom: 15px;
+	}
+	.product-name {
+    font-size: 16px;
+	}
+	.product-price {
+    font-size: 15px;
+	}
+	.prdct-img-box {
+    padding: 10px 0px;
+	}
+	.signin-main-dv{
+		width: 100%;
+		padding: 90px 0px;
+	}
+	.cart-box {
+    display: block;
+	}
+	.cart-img-box {
+    margin: auto;
+		margin-bottom: 25px;
+	}
+	.cart-content-box {
+    padding-left: 0px;
+	}
+	.profile-dv {
+    width: 100% !important;
+	}
+	.tab-main-dv {
+    display: block;
+	}
+	.tab-name {
+    width: 250px;
+		margin: auto;
+		text-align: center;
+		padding: 15px 60px;
+	}
+	.profile-dv form input {
+    padding: 13px 20px !important;
+	}
+	.checkout-page .address-box {
+    width: 100%;
+	}
+	.checkout-page .address-box{
+		display: flex !important;
+	}
+	.product-chekout {
+    display: block;
+	}
+	.price-dv-checkout{
+		padding: 5px 0px 0px 0px;
+		display: table;
+		margin: auto;
+	}
+	.product-chekouts .checkout-product-image {
+    width: 70px;
+	}
+   .product-image {
+        width: 100%;
+        height: 160px;
+    }
+    .checkout-page .address-boxs {
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .address-boxs {
+        display: block;
+        position: relative;
+    }
+    .addrs-tick{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+	.banner-main-text {
+    font-size: 17px;
+		padding-bottom: 8px;
+	}
+	.product-dv {
+    margin: auto;
+	}
+	.main-dv-chekout {
+    display: block;
+	}
+	.product-name-dv {
+    padding: 15px 0px 0px 0px;
+		display: table;
+		margin: auto;
+	}
+	.explore-btn-banner {
+    padding: 3px 8px !important;
+		font-size: 13px !important;
+	}
+	.carousel-indicators {
+    bottom: -10px !important;
+	}
+	.logo-main {
+    width: 80px;
+	}
+	.nav-profl-login i {
+    padding: 0px 0px 0px 28px;
+    font-size: 19px;
+	}
+	.medicine-text {
+    font-size: 25px;
+	}
+	.shop-text {
+    font-size: 23px;
+	}
+	.trending-text {
+    font-size: 17px;
+	}
+	.view-all-btn-products {
+    padding: 5px 15px !important;
+		font-size: 13px !important;
+	}
+	.view-all-btn {
+    padding: 6px 20px !important;
+		font-size: 13px !important;
+	}
+	.product-name {
+    font-size: 16px;
+	}
+	.product-price {
+    font-size: 15px;
+	}
+	.banner-content {
+    padding: 60px 0px;
+	}
+	.add-to-cart {
+    font-size: 13px !important;
+	}
+	.desease-name {
+    font-weight: 400;
+		font-size: 26px;
+	}
+	.sub-txt-desease {
+    font-size: 14px;
+	}
+	.desease-single-main-div {
+    padding: 34px 0px;
+	}
+	.cart-sub-text {
+    font-size: 15px;
+	}
+	.sub-total-dv .cart-sub-total-text {
+    padding-bottom: 20px;
+	}
+	.address-box {
+    display: block;
+	}
+	.addrs-btns {
+		margin: 30px auto 5px auto;
+		display: table;
+	}
+	.stars-rating i{
+		color: #D9D9D9;
+		font-size: 30px;
+	}
+	.chat-heading {
+    width: 97%;
+		margin: auto;
+	}
+	.chat-box {
+    width: 97%;
+		margin: auto;
+		right: 4px;
+	}
+	.left-chat, .right-chat {
+    font-size: 14px;
+	}
+	.chat-add-box form {
+    width: 270px;
+	}
+	.signin-btn-main {
+    padding: 8px 75px !important;
+	}
+
+    .photos-txt span {
+        font-size: unset;
+        color: #c6a87d;
+    }
+
+
+}
+.photos-txt span {
+    font-size: unset !important;
+	color: #A60000;
+}
+.galler-box{
+    cursor: pointer;
+}
+
+
